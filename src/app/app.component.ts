@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mini-projet';
+  ext = '';
+  name = [
+    'Sina',
+    'Chris',
+    'Momo'
+  ]
+   addName(ext:string){
+    this.name.push(ext);
+  }
 }

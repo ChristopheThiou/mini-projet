@@ -1,0 +1,6 @@
+<div class="square" [ngStyle]="{'width.px': width}" (click)="changeBool()"></div>
+<button (click)="changeBorder(b)">Change forme</button>
+<div *ngIf="bool == false">
+    <hr>
+<input type="number"[(ngModel)]="width">
+</div>
